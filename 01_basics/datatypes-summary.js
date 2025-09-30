@@ -36,6 +36,28 @@ const myFunction = function(){
 //console. log(typeof outsideTemp);
 //console. log(typeof scoreValue);
 //console. log(typeof myFunction);
-console. log(typeof anotherId);
+//console. log(typeof anotherId);
 
+// ++++++++++++++++++++++++++++++++++
 
+// Stack (primitive), Heap (non-primitive)
+
+let myYoutubename = "farahdoll.com"
+
+let anothername = myYoutubename
+anothername = "chaiurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "farahdoll@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
