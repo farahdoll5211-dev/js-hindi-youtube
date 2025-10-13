@@ -45,8 +45,43 @@ const user = {
 const addtwo = (num1, num2) => ({username: "farah"})
 
 
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(addtwo(3, 4));
 
 const myArray = [2, 5, 3, 7]
 
-myArray.forEach(() => {})
+//myArray.forEach(() => {})
