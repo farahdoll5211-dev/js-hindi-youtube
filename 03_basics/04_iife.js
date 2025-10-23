@@ -8,6 +8,7 @@
 
 
 (function chai (){
+    // named iife
     console.log(`DB CONNECTED`);
 })();
 
